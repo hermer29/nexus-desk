@@ -6,9 +6,9 @@
 
 ## 0. Основа проекта
 
-- [ ] Создать Unity-проект (URP или Built-in — зафиксировать выбор) и пустую сцену `Boot`
-- [ ] Настроить структуру папок: `Art`, `Audio`, `Data`, `Prefabs/UI`, `Scripts`, `Scenes`, `Tests`
-- [ ] Подключить TextMeshPro и создать базовые UI-шрифты (Regular, Bold, Mono)
+- [x] Создать Unity-проект (URP или Built-in — зафиксировать выбор) и пустую сцену `Boot`
+- [x] Настроить структуру папок: `Art`, `Audio`, `Data`, `Prefabs/UI`, `Scripts`, `Scenes`, `Tests`
+- [x] Подключить TextMeshPro и создать базовые UI-шрифты (Regular, Bold, Mono)
 - [ ] Создать UI Sprite Atlas и собрать в него фоны, кнопки, иконки, 9-slice
 - [ ] Задать цветовую палитру и UI Style Guide (ScriptableObject или static theme)
 - [ ] Создать сцену `MainDesk` и настроить EventSystem + Input System (если используешь новый Input)

@@ -52,6 +52,7 @@
 - **MVVM / event bus** — точечное обновление виджетов
 - **Addressables** — lazy load тяжёлых экранов
 - **Profiler budget** — измеримые цели по FPS, GC, UI Rebuild
+- **URP** — использование более современного Render Pipeline
 
 ### Целевые метрики (1080p, mid PC)
 
