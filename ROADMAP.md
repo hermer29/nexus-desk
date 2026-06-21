@@ -10,7 +10,7 @@
 - [x] Настроить структуру папок: `Art`, `Audio`, `Data`, `Prefabs/UI`, `Scripts`, `Scenes`, `Tests`
 - [x] Подключить TextMeshPro и создать базовые UI-шрифты (Regular, Bold, Mono)
 - [x] Создать UI Sprite Atlas и собрать в него фоны, кнопки, иконки, 9-slice
-- [ ] Задать цветовую палитру и UI Style Guide (ScriptableObject или static theme)
+- [-] Задать цветовую палитру и UI Style Guide (ScriptableObject или static theme)
 - [ ] Создать сцену `MainDesk` и настроить EventSystem + Input System (если используешь новый Input)
 - [ ] Сделать `GameBootstrap`: загрузка `MainDesk`, инициализация сервисов, без логики геймплея в MonoBehaviour «богов»
 
