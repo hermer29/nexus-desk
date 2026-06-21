@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NexusDesk
+namespace NexusDesk.Core
 {
     public static class ServiceLocator
     {

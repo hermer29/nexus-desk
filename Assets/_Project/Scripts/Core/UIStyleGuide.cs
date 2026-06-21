@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace NexusDesk
+namespace NexusDesk.Core
 {
-    [CreateAssetMenu(fileName = "UIStyleGuide", menuName = "NexusDesk/UI/Create Style Guide")]
+    [CreateAssetMenu(fileName = "UIStyleGuide", menuName = "Nexus Desk/UI/Create Style Guide")]
     public class UIStyleGuide : ScriptableObject
     {
         public Color Success;

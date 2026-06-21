@@ -2,13 +2,16 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace NexusDesk
+using NexusDesk.UI.Architecture;
+
+namespace NexusDesk.Core
 {
     public class GameBootstrapper : MonoBehaviour
     {
         const string MainDeskScene = "MainDesk";
 
         [SerializeField] UIStyleGuide _styleGuide;
+        [SerializeField] ScreenRegistry _screenRegistry;
 
         void Awake()
         {
@@ -26,6 +29,12 @@ namespace NexusDesk
         {
             if (_styleGuide != null)
                 ServiceLocator.Register(_styleGuide);
+
+            if (_screenRegistry != null)
+                ServiceLocator.Register(_screenRegistry);
+
+            ServiceLocator.Register(new ScreenStack());
+            
         }
     }
 }
