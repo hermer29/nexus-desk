@@ -12,7 +12,7 @@
 - [x] Создать UI Sprite Atlas и собрать в него фоны, кнопки, иконки, 9-slice
 - [-] Задать цветовую палитру и UI Style Guide (ScriptableObject или static theme)
 - [x] Создать сцену `MainDesk` и настроить EventSystem + Input System (если используешь новый Input)
-- [ ] Сделать `GameBootstrap`: загрузка `MainDesk`, инициализация сервисов, без логики геймплея в MonoBehaviour «богов»
+- [x] Сделать `GameBootstrap`: загрузка `MainDesk`, инициализация сервисов, без логики геймплея в MonoBehaviour «богов»
 
 ## 1. Архитектура UI
 
