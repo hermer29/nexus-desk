@@ -14,7 +14,6 @@ namespace NexusDesk.Core
         public Color Disabled;
         public Severity Severity;
 
-
     }
 
     [System.Serializable]

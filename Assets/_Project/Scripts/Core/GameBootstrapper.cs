@@ -34,7 +34,6 @@ namespace NexusDesk.Core
                 ServiceLocator.Register(_screenRegistry);
 
             ServiceLocator.Register(new ScreenStack());
-            
         }
     }
 }
